@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hot Beans Web - Web Development Resources</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gradient-to-b from-blue-100 to-white min-h-screen flex flex-col">
+  <!-- Navigation (consistent with other pages) -->
+  <nav class="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-4 flex items-center justify-between shadow-md">
+    <div class="logo flex items-center">
+      <img src="WhatsApp_Image_2025-03-13_at_19.45.26_04d9f96a-removebg-preview.png" alt="Hot Beans Web Logo" class="h-10 mr-2">
+      <span class="font-bold text-2xl">Hot Beans Web</span>
+    </div>
+    <div class="md:hidden">
+      <button id="nav-toggle" class="focus:outline-none">
+        <svg id="hamburger-icon" class="h-8 w-8 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/>
+        </svg>
+      </button>
+    </div>
+    <ul id="nav-menu" class="hidden md:flex space-x-6 text-lg">
+      <li><a href="index.html" class="hover:underline">Home</a></li>
+      <li><a href="job-specifications.html" class="hover:underline">Job Specs</a></li>
+      <li><a href="apply.html" class="hover:underline">Apply</a></li>
+      <li><a href="resources.html" class="underline font-semibold">Resources</a></li>
+      <li><a href="contact.html" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="mobile-menu" class="md:hidden hidden bg-blue-600 text-white transition-all duration-300">
+    <ul class="p-4 space-y-2">
+      <li><a href="index.html" class="block hover:underline">Home</a></li>
+      <li><a href="job-specifications.html" class="block hover:underline">Job Specs</a></li>
+      <li><a href="apply.html" class="block hover:underline">Apply</a></li>
+      <li><a href="resources.html" class="block hover:underline">Resources</a></li>
+      <li><a href="contact.html" class="block hover:underline">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 my-10">
+    <section class="bg-white rounded-xl shadow-lg p-8">
+      <h2 class="text-3xl font-bold text-blue-600 mb-6">Web Development Learning Resources</h2>
+      <p class="text-gray-700 mb-6">Below are some recommended YouTube videos to help you learn web development:</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Video 1 -->
+        <div class="bg-gray-100 rounded-lg p-4 shadow">
+          <h3 class="text-xl font-semibold mb-2">HTML & CSS Crash Course</h3>
+          <div class="aspect-w-16 aspect-h-9 mb-2">
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/UB1O30fR-EE" title="HTML & CSS Crash Course" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank" class="text-blue-600 hover:underline">Watch on YouTube</a>
+        </div>
+        <!-- Video 2 -->
+        <div class="bg-gray-100 rounded-lg p-4 shadow">
+          <h3 class="text-xl font-semibold mb-2">JavaScript Crash Course</h3>
+          <div class="aspect-w-16 aspect-h-9 mb-2">
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/hdI2bqOjy3c" title="JavaScript Crash Course" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <a href="https://www.youtube.com/watch?v=hdI2bqOjy3c" target="_blank" class="text-blue-600 hover:underline">Watch on YouTube</a>
+        </div>
+        <!-- Video 3 -->
+        <div class="bg-gray-100 rounded-lg p-4 shadow">
+          <h3 class="text-xl font-semibold mb-2">Tailwind CSS Tutorial</h3>
+          <div class="aspect-w-16 aspect-h-9 mb-2">
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/dFgzHOX84xQ" title="Tailwind CSS Tutorial" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <a href="https://www.youtube.com/watch?v=dFgzHOX84xQ" target="_blank" class="text-blue-600 hover:underline">Watch on YouTube</a>
+        </div>
+        <!-- Video 4 -->
+        <div class="bg-gray-100 rounded-lg p-4 shadow">
+          <h3 class="text-xl font-semibold mb-2">Responsive Web Design Tutorial</h3>
+          <div class="aspect-w-16 aspect-h-9 mb-2">
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/srvUrASNj0s" title="Responsive Web Design Tutorial" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <a href="https://www.youtube.com/watch?v=srvUrASNj0s" target="_blank" class="text-blue-600 hover:underline">Watch on YouTube</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center py-6">
+    <p>&copy; 2025 Hot Beans Web. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

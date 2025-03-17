@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hot Beans Web - Contact</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gradient-to-b from-blue-100 to-white min-h-screen flex flex-col">
+  <nav class="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-4 flex items-center justify-between shadow-md">
+    <div class="logo flex items-center">
+      <img src="WhatsApp_Image_2025-03-13_at_19.45.26_04d9f96a-removebg-preview.png" alt="Hot Beans Web Logo" class="h-10 mr-2" />
+    </div>
+    <div class="md:hidden">
+      <button id="nav-toggle" class="focus:outline-none">
+        <svg id="hamburger-icon" class="h-8 w-8 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/>
+        </svg>
+      </button>
+    </div>
+    <ul id="nav-menu" class="hidden md:flex space-x-6 text-lg">
+      <li><a href="index.html" class="hover:underline">Home</a></li>
+      <li><a href="job-specifications.html" class="hover:underline">Job Specs</a></li>
+      <li><a href="apply.html" class="hover:underline">Apply</a></li>
+      <li><a href="resources.html" class="hover:underline">Resources</a></li>
+      <li><a href="contact.html" class="underline font-semibold">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="mobile-menu" class="md:hidden hidden bg-blue-600 text-white transition-all duration-300">
+    <ul class="p-4 space-y-2">
+      <li><a href="index.html" class="block hover:underline">Home</a></li>
+      <li><a href="job-specifications.html" class="block hover:underline">Job Specs</a></li>
+      <li><a href="apply.html" class="block hover:underline">Apply</a></li>
+      <li><a href="resources.html" class="block hover:underline">Resources</a></li>
+      <li><a href="contact.html" class="block hover:underline">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 my-10">
+    <section class="bg-white rounded-xl shadow-lg p-8">
+      <h2 class="text-3xl font-bold text-blue-600 mb-4">Contact Us</h2>
+      <p class="text-gray-700 mb-6">
+        If you have any questions, feel free to reach out using the details below:
+      </p>
+      <ul class="space-y-2 text-gray-700 text-lg">
+        <li><strong>Email:</strong> careers@hotbeansweb.com</li>
+        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+        <li><strong>Address:</strong> 123 Hot Beans Ave, Web City, 99999</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center py-6">
+    <p>&copy; 2025 Hot Beans Web. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
