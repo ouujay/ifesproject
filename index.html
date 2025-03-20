@@ -32,9 +32,11 @@
       <li><a href="job-specifications.html" class="hover:underline">Job Specs</a></li>
       <li><a href="apply.html" class="hover:underline">Apply</a></li>
       <li><a href="resources.html" class="hover:underline">Resources</a></li>
-      <li><a href="contact.html" class="hover:underline">Contact</a></li>
+      <li><a href="about.html" class="hover:underline">About</a></li>
+      <li><a href="meet-the-team.html" class="hover:underline">Meet Team</a></li>
     </ul>
   </nav>
+  
   <!-- Mobile Navigation Menu -->
   <div id="mobile-menu" class="md:hidden hidden bg-blue-600 text-white transition-all duration-300">
     <ul class="p-4 space-y-2">
@@ -42,10 +44,11 @@
       <li><a href="job-specifications.html" class="block hover:underline">Job Specs</a></li>
       <li><a href="apply.html" class="block hover:underline">Apply</a></li>
       <li><a href="resources.html" class="block hover:underline">Resources</a></li>
-      <li><a href="contact.html" class="block hover:underline">Contact</a></li>
+      <li><a href="about.html" class="block hover:underline">About</a></li>
+      <li><a href="meet-the-team.html" class="block hover:underline">Meet Team</a></li>
     </ul>
   </div>
-
+  
   <!-- Hero Section -->
   <header class="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-b from-blue-300 to-blue-200">
     <h1 class="text-5xl font-extrabold text-gray-800 mb-6">Welcome to Hot Beans Web</h1>
@@ -54,87 +57,47 @@
       Apply Now
     </a>
   </header>
-
-  <!-- Team Dropdown Section -->
-  <section class="container mx-auto px-4 sm:px-6 lg:px-8 my-10">
-    <div class="relative">
-      <button id="teamButton" class="px-8 py-4 bg-blue-600 text-white font-bold rounded-full shadow-lg hover:bg-blue-700 transition">
-        Meet Our Team
-      </button>
-      <div id="teamDropdown" class="hidden mt-4 bg-white rounded-lg shadow p-4">
-        <ul class="space-y-4">
-          <!-- Team Member 1 -->
-          <li class="flex items-center space-x-4">
-            <img src="IMG-20250317-WA0014.jpg" alt="Senior Developer" class="w-16 h-16 rounded-full object-cover">
-            <div>
-              <h4 class="font-bold text-lg">Senior Developer</h4>
-              <p class="text-gray-600">Alice Johnson</p>
-            </div>
-          </li>
-          <!-- Team Member 2 -->
-          <li class="flex items-center space-x-4">
-            <img src="IMG-20250317-WA0015.jpg" alt="Frontend Developer" class="w-16 h-16 rounded-full object-cover">
-            <div>
-              <h4 class="font-bold text-lg">Frontend Developer</h4>
-              <p class="text-gray-600">Bob Smith</p>
-            </div>
-          </li>
-          <!-- Team Member 3 -->
-          <li class="flex items-center space-x-4">
-            <img src="IMG-20250317-WA0016.jpg" alt="Backend Developer" class="w-16 h-16 rounded-full object-cover">
-            <div>
-              <h4 class="font-bold text-lg">Backend Developer</h4>
-              <p class="text-gray-600">Charlie Brown</p>
-            </div>
-          </li>
-          <!-- Team Member 4 -->
-          <li class="flex items-center space-x-4">
-            <img src="IMG-20250317-WA0017.jpg" alt="Project Manager" class="w-16 h-16 rounded-full object-cover">
-            <div>
-              <h4 class="font-bold text-lg">Project Manager</h4>
-              <p class="text-gray-600">Dana White</p>
-            </div>
-          </li>
-          <!-- Team Member 5 -->
-          <li class="flex items-center space-x-4">
-            <img src="IMG-20250317-WA0018.jpg" alt="QA Engineer" class="w-16 h-16 rounded-full object-cover">
-            <div>
-              <h4 class="font-bold text-lg">QA Engineer</h4>
-              <p class="text-gray-600">Evelyn Davis</p>
-            </div>
-          </li>
-        </ul>
+  
+  <!-- Services Section -->
+  <section class="container mx-auto px-6 py-12">
+    <h2 class="text-3xl font-bold text-blue-600 text-center mb-8">Our Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-xl shadow-lg p-6">
+         <h3 class="text-xl font-bold mb-2">Web Development</h3>
+         <p class="text-gray-700">We build responsive, scalable, and high-performance web solutions tailored to your business needs.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-6">
+         <h3 class="text-xl font-bold mb-2">UI/UX Design</h3>
+         <p class="text-gray-700">Our designs are intuitive and user-friendly, ensuring a great user experience on every platform.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-6">
+         <h3 class="text-xl font-bold mb-2">Digital Marketing</h3>
+         <p class="text-gray-700">Increase your online presence with our comprehensive digital marketing strategies.</p>
       </div>
     </div>
   </section>
-
-  <!-- Main Content -->
-  <main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 my-10">
-    <section class="bg-white rounded-xl shadow-lg p-8">
-      <h2 class="text-3xl font-bold text-blue-600 mb-4">Who We Are</h2>
-      <p class="text-gray-700 mb-6">
-        Hot Beans Web is a cutting-edge web development agency specializing in modern, user-friendly solutions for businesses of all sizes. Our mission is to create digital experiences that help our clients stand out online.
-      </p>
-      <h3 class="text-2xl font-semibold text-blue-600 mb-3">Why Work With Us?</h3>
-      <ul class="list-disc list-inside text-gray-700 space-y-2">
-        <li>Collaborative, innovative environment</li>
-        <li>Competitive salaries and benefits</li>
-        <li>Opportunities for career growth</li>
-        <li>Flexible working arrangements</li>
-      </ul>
-    </section>
-  </main>
-
+  
+  <!-- About Us Preview Section -->
+  <section class="container mx-auto px-6 py-12 bg-white rounded-xl shadow-lg mb-12">
+    <h2 class="text-3xl font-bold text-blue-600 mb-4 text-center">About Us</h2>
+    <p class="text-gray-700 text-center mb-6">
+      Hot Beans Web is a cutting-edge web development agency that specializes in crafting modern, user-friendly digital experiences for businesses of all sizes. We combine creativity, technology, and innovation to deliver outstanding solutions.
+    </p>
+    <div class="flex justify-center">
+      <a href="about.html" class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition">Learn More</a>
+    </div>
+  </section>
+  
   <!-- Footer -->
-  <footer class="bg-blue-600 text-white text-center py-6">
+  <footer class="bg-blue-600 text-white text-center py-6 mt-auto">
     <p>&copy; 2025 Hot Beans Web. All rights reserved.</p>
   </footer>
-
-  <!-- Script for Team Dropdown Toggle -->
+  
+  <!-- Script for Mobile Menu Toggle -->
   <script>
-    document.getElementById('teamButton').addEventListener('click', function() {
-      var dropdown = document.getElementById('teamDropdown');
-      dropdown.classList.toggle('hidden');
+    document.getElementById('nav-toggle').addEventListener('click', function() {
+      var mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
     });
   </script>
   <script src="script.js"></script>
